@@ -1,6 +1,6 @@
 // Copied code given in example as a starting point for assignment 2.
 import java.util.Scanner;
-public class LinearSearchDemo {
+public class LinearSearchSubtaskOne {
     private static int linearSearch(int[] numbers, int key) {
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] == key) {
