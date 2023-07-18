@@ -1,4 +1,10 @@
-// Copied code given in example as a starting point for assignment 2.
+// *************************************************************************
+// CS115 Assignment 2 Subtask 1
+// Brecon Morgan
+//
+// Note: Copied code given in example as a starting point for assignment 2.
+// *************************************************************************
+
 import java.util.Scanner;
 public class LinearSearchSubtaskOne {
     private static int linearSearch(int[] numbers, int key) {
