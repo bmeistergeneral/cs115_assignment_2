@@ -29,13 +29,13 @@ public class LinearSearchSubtaskTwo {
             numbers[i] = rand.nextInt(upperbound);
         }
 
-        System.out.println("Array elements are: ");
+        System.out.println("Randomly generated numbers: ");
 
         for (int i = 0; i < numbers.length; i++) {
             System.out.print(numbers[i] + " ");
         }
 
-        System.out.println("\n" + "Input a number to search: ");
+        System.out.println("\n" + "Enter an integer value from the above list to search: ");
         Scanner scnr = new Scanner(System.in);
         int key = scnr.nextInt();
         int keyIndex = linearSearch(numbers, key);
